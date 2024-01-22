@@ -78,8 +78,24 @@
             </div>
         </div>
     </nav>
-    <header class="container mx-auto">
-        
+    <header class="container mx-auto mt-14 ">
+        <div>
+            <div class="carousel w-full ">
+                <div id="slide1" class="carousel-item relative w-full  bg-[url(./Images/1.png)] bg-no-repeat">
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="Images/2.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
     <main class="container mx-auto"></main>
     <footer></footer>
