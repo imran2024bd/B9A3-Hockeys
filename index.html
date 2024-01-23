@@ -40,7 +40,7 @@
 </style>
 
 <body class="font-manrope">
-    <nav class="container mx-auto mt-14">
+    <nav class="container mx-auto mt-14 px-8 lg:px-24">
         <div class="navbar bg-[#FFF]">
             <div class="navbar-start">
                 <div class="dropdown">
@@ -78,26 +78,73 @@
             </div>
         </div>
     </nav>
-    <header class="container mx-auto mt-14 ">
-        <div>
-            <div class="carousel w-full ">
-                <div id="slide1" class="carousel-item relative w-full  bg-[url(./Images/1.png)] bg-no-repeat">
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide2" class="btn btn-circle">❮</a>
-                        <a href="#slide2" class="btn btn-circle">❯</a>
-                    </div>
+    <div class="container mx-auto my-0 mt-14 px-8 lg:px-24 ">
+        <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full  bg-[url(./Images/1.png)] h-[70vh] bg-center bg-cover  bg-no-repeat">
+                <div class="absolute flex justify-between transform -translate-y-1/2  ml-8 gap-x-4 left-0 bottom-0 ">
+                    <a href="#slide2" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
                 </div>
-                <div id="slide2" class="carousel-item relative w-full">
-                    <img src="Images/2.png" class="w-full" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide1" class="btn btn-circle">❮</a>
-                        <a href="#slide1" class="btn btn-circle">❯</a>
-                    </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full  bg-[url(./Images/4.png)] h-[70vh]  bg-no-repeat">
+                <div class="absolute flex justify-between transform -translate-y-1/2 ml-8 gap-x-4 left-0 bottom-0">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <a href="#slide1" class="btn btn-circle">❯</a>
                 </div>
             </div>
         </div>
-    </header>
-    <main class="container mx-auto"></main>
+    </div>
+    <div class="h-[28vh] w-2/6 bg-black rounded-2xl text-left gap-y-4 mb-8 p-8 -translate-y-52 translate-x-[750px]">
+        <h3 class="text-2xl font-extrabold text-white">Meet all the heroes from the field</h3>
+        <p class="text-[16px] font-medium text-[white] opacity-60 ">In hockey, each team has 11 players, including
+            10 field players and one goalkeeper. There are five substitutes on the
+            bench.
+        </p>
+    </div>
+    <main>
+        <!-- Professional Hockeys Club start -->
+        <section class="container mx-auto  px-8 lg:px-24 bg-yellow-400">
+            <div class="text-center gap-y-6">
+                <h3 class="text-3xl font-extrabold mb-6">Professional Hockeys Club</h3>
+                <p class="text-xs opacity-60 h-2/3 font-medium text-wrap text-[#131318]">After various periods of
+                    expansion and
+                    reorganization, the NHL now consists of 32 teams in two conferences and four
+                    divisions.</p>
+            </div>
+            <div class="grid grid-cols-1 lg: grid-cols-4 mt-10">
+                <div class="flex flex-col items-center justify-center text-center">
+                    <div class="flex items-center justify-center mb-6">
+                        <div class="radial-progress text-primary" style="--value:70;" role="progressbar">87%</div>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-4">Prayer Facility</h4>
+                    <p class="text-xs font-semibold opacity-60 text-[#131318]">Every Muslim is expected to pray</p>
+                </div>
+                <div class="flex flex-col items-center justify-center text-center">
+                    <div class="flex items-center justify-center mb-6">
+                        <div class="radial-progress text-primary" style="--value:70;" role="progressbar">87%</div>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-4">Prayer Facility</h4>
+                    <p class="text-xs font-semibold opacity-60 text-[#131318]">Every Muslim is expected to pray</p>
+                </div>
+                <div class="flex flex-col items-center justify-center text-center">
+                    <div class="flex items-center justify-center mb-6">
+                        <div class="radial-progress text-primary" style="--value:70;" role="progressbar">87%</div>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-4">Prayer Facility</h4>
+                    <p class="text-xs font-semibold opacity-60 text-[#131318]">Every Muslim is expected to pray</p>
+                </div>
+                <div class="flex flex-col items-center justify-center text-center">
+                    <div class="flex items-center justify-center mb-6">
+                        <div class="radial-progress text-primary" style="--value:70;" role="progressbar">87%</div>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-4">Prayer Facility</h4>
+                    <p class="text-xs font-semibold opacity-60 text-[#131318]">Every Muslim is expected to pray</p>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
     <footer></footer>
 
 </body>
